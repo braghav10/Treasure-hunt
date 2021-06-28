@@ -19,8 +19,6 @@ public class TreasureHunt {
 			else if (traverse++ > pathList.size())
 				return Arrays.asList(-1);
 		}
-		if (count == size + 1)
-			return treasureList;
 		return treasureList;
 	}
 
