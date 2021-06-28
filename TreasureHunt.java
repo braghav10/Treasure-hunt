@@ -30,8 +30,8 @@ public class TreasureHunt {
 		List<Integer> pathInfiniteList = Arrays.asList(2, 10, 1, -1, 1, -2);
 
 		System.out.println("Treasure : " + getTreasurePath(pathValidList));
-		System.out.println("Zombie : " + getTreasurePath(pathZombieList).get(0));
-		System.out.println("Infinite : " + getTreasurePath(pathInfiniteList).get(0));
+		System.out.println("Zombie : " + getTreasurePath(pathZombieList));
+		System.out.println("Infinite : " + getTreasurePath(pathInfiniteList));
 
 	}
 }
